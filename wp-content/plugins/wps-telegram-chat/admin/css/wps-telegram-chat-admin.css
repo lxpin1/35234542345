@@ -1,0 +1,312 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#wps-telegram-chat{
+	max-width: 860px;
+	padding: 10px 10px 10px 0;
+	box-sizing: border-box;
+}
+
+#wps-telegram-chat h2{
+    margin: 0 0 10px;
+}
+
+#wps-telegram-chat h3{
+	background: #ffffff;
+    padding: 10px;
+	margin: 20px 0 0;
+	border: 1px solid #c3c4c7;
+	cursor: pointer;
+	position: relative;
+}
+#wps-telegram-chat h3:hover{
+	background-color: lightgray;
+}
+#wps-telegram-chat h3.ui-state-active{
+	border-bottom: none;
+}
+#wps-telegram-chat h3 i{
+	font-weight: normal;
+}
+#wps-telegram-chat h3 .ui-icon{
+	position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+#wps-telegram-chat #infoBlock{
+    margin-bottom: 10px;
+    padding: 20px 0;
+}
+#wps-telegram-chat #infoBlock div{
+	display: inline-block;
+	vertical-align: middle;
+}
+#wps-telegram-chat #infoBlock #info{
+	text-align: left;
+	margin-left: 8px;
+}
+#wps-telegram-chat #info div{
+	width: 50%;
+    float: left;
+}
+
+#wps-telegram-chat #infoBlock #authorLogo img{
+	max-width: 64px;
+}
+
+#wps-telegram-chat #popUp{
+	position: fixed;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+	display: none;
+}
+#wps-telegram-chat.popUp #popUp{
+	display: block;
+}
+#wps-telegram-chat #popUp div{
+	padding: 20px;
+    margin: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    transform: translate(-50%, -75%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 0 0 20px #555555;
+	max-width: 50%;
+}
+#wps-telegram-chat #popUp div *{
+	margin: 0;
+}
+#wps-telegram-chat #popUp pre{
+	white-space: pre-wrap;
+}
+#wps-telegram-chat #popUp .close{
+	position: absolute;
+    right: -8px;
+    top: -8px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer;
+}
+#wps-telegram-chat #popUp .info.ok{
+	border-color: limegreen;
+}
+#wps-telegram-chat #popUp .info.error{
+	border-color: orangered;
+}
+#wps-telegram-chat #popUp .info:before{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 4px 8px;
+    border-radius: 0 0 5px;
+    color: #ffffff;
+}
+#wps-telegram-chat #popUp .info.ok:before{
+	content: 'GOOD';
+	background: limegreen;
+}
+#wps-telegram-chat #popUp .info.error:before{
+	content: 'ERROR';
+	background: orangered;
+}
+
+#wps-telegram-chat form > div{
+	border-radius: 0 0 10px 10px;
+    padding: 10px;
+    background: #ffffff;
+	margin-bottom: 20px;
+	border: 1px solid #c3c4c7;
+	border-top: none;
+}
+#wps-telegram-chat form > div > div{
+	padding: 10px 6px;
+    /*border-bottom: 1px solid #dddddd;*/
+}
+#wps-telegram-chat form > div > div:nth-child(even){
+	background: rgba(199,199,199,0.1);
+}
+#wps-telegram-chat form > div > div div{
+	display: inline-block;
+	margin: 5px;
+}
+#wps-telegram-chat form > div > div div span{
+	width: auto;
+	margin: 6px 0;
+}
+
+#wps-telegram-chat label,
+#wps-telegram-chat label *{
+	vertical-align: middle;
+    display: inline-block;
+	margin: 0;
+}
+#wps-telegram-chat label span{
+	display: inline-block;
+    width: 140px;
+    padding: 2px 0;
+    margin: 6px 0;
+    border-bottom: 1px dotted #222222;
+	position: relative;
+}
+#wps-telegram-chat label span:after{
+	content: ' ';
+	top: 0;
+    right: -4px;
+    width: 3px;
+	height: 100%;
+    display: block;
+    border-bottom: 1px dotted #222222;
+    position: absolute;
+}
+#wps-telegram-chat p:empty{
+	display: none;
+}
+
+#wps-telegram-chat span.img{
+	display: inline-block;
+    width: 32px;
+    height: 32px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 5px;
+}
+#wps-telegram-chat span.img img{
+	max-width: 100%;
+    max-height: 100%;
+	border-radius: 50%;
+}
+
+#wps-telegram-chat #proxy label,
+#wps-telegram-chat #proxyType label{
+	margin-right: 10px;
+}
+#wps-telegram-chat #proxy label:not(:first-child) span,
+#wps-telegram-chat #proxyType label:not(:first-child) span{
+	width: auto;
+}
+#wps-telegram-chat #proxyUrl label{
+	width: 100%;
+}
+#wps-telegram-chat #proxyUrl input {
+    width: 50%;
+}
+#wps-telegram-chat #proxyUrl,
+#wps-telegram-chat #proxyOptions{
+	display: none;
+}
+#chatProxy.script #proxyUrl,
+#chatProxy.proxy #proxyUrl,
+#chatProxy.proxy #proxyOptions{
+	display: block;
+}
+#wps-telegram-chat #proxyType{
+	width: 100%;
+	margin: 5px 0;
+}
+
+#wps-telegram-chat #chatToken label{
+	width: 100%;
+}
+#wps-telegram-chat #chatToken input{
+	width: 50%;
+}
+
+#wps-telegram-chat button{
+	cursor: pointer;
+}
+
+#wps-telegram-chat #chatOnSpecific{
+	display: none;
+}
+#wps-telegram-chat #chatShow.onSpecific #chatOnSpecific{
+	display: block;
+}
+
+#wps-telegram-chat #chatTitle,
+#wps-telegram-chat #chatWelcomeTxt{
+	display: block;
+}
+#wps-telegram-chat input[type="text"],
+#wps-telegram-chat textarea{
+	min-width: 220px;
+}
+#wps-telegram-chat #chatWelcomeTxt textarea,
+#wps-telegram-chat #chatOfflineTxt textarea{
+    min-height: 70px;
+}
+
+#wps-telegram-chat #chatCustomCss label,
+#wps-telegram-chat #chatCustomCss textarea{
+	width: 100%;
+	min-height: 170px;
+}
+
+#wps-telegram-chat #chatSchedule.alwaysOnline #daysOfWeek{
+	display: none;
+}
+#wps-telegram-chat #daysOfWeek .dayName{
+	text-transform: capitalize;
+	min-width: 40px;
+}
+#wps-telegram-chat #daysOfWeek .dayBox{
+	display: block;
+}
+#wps-telegram-chat #daysOfWeek .dayBox:nth-child(even) {
+    background: rgba(199,199,199,0.1);
+}
+#wps-telegram-chat #daysOfWeek .dayBox > label{
+	margin-right: 10px;
+}
+#wps-telegram-chat #daysOfWeek .startTime > span,
+#wps-telegram-chat #daysOfWeek .endTime > span{
+	min-width: 40px;
+    display: inline-block;
+	text-align: right;
+	margin-right: 10px;
+	font-style: italic;
+}
+#wps-telegram-chat #daysOfWeek .info,
+#wps-telegram-chat #daysOfWeek .dayBox .info{
+	display: none;
+}
+#wps-telegram-chat #daysOfWeek .dayBox.error .info{
+	display: block;
+}
+
+#wps-telegram-chat #wpsNotifications input[type=checkbox]{
+	margin-right: 4px;
+}
+#wps-telegram-chat #wpsNotifications span{
+	width: auto;
+}
+#wps-telegram-chat #wpsNotifications span:after{
+	content: none;
+}
+
+@media screen and (max-width: 680px) {
+	#wps-telegram-chat #info div{
+		width: 100%;
+		margin: 0 0 8px;
+	}
+}
+@media screen and (max-width: 580px) {
+	#wps-telegram-chat #daysOfWeek div > div{
+		display: block;
+	}
+}

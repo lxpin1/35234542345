@@ -1,0 +1,68 @@
+# Translation of Plugins - «Подсказки» от DaData.ru - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - «Подсказки» от DaData.ru - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-30 12:40:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - «Подсказки» от DaData.ru - Stable (latest release)\n"
+
+#: dadata-ru.php:177
+msgid "Countries for address prompts. Enter the values, separated by commas. Example: RU, BY, KZ"
+msgstr "Поддержка адресов разных стран. Введите значения, разделенные запятыми. Пример: RU, BY, KZ"
+
+#: dadata-ru.php:166
+msgid "Turn off tooltips for WooCommerce"
+msgstr "Отключить всплывающие подсказки для WooCommerce"
+
+#: dadata-ru.php:155
+msgid "Disable phone number entry mask"
+msgstr "Отключение маски ввода телефонного номера"
+
+#: dadata-ru.php:144
+msgid "The minimum length of the text after which the hints are included"
+msgstr "Минимальная длина текста, после которой включаются подсказки"
+
+#: dadata-ru.php:133
+msgid "Explanatory text that is shown in the drop-down list above the tooltips"
+msgstr "Поясняющий текст, который показывается в выпадающем списке над подсказками"
+
+#: dadata-ru.php:122
+msgid "The maximum number of hints in the drop-down list. Can't be more than 20"
+msgstr "Максимальное количество подсказок в выпадающем списке. Не может быть больше 20"
+
+#: dadata-ru.php:111
+msgid "get a token"
+msgstr "получить токен"
+
+#: dadata-ru.php:99
+msgid "Setting DaData API"
+msgstr "Настройка DaData API"
+
+#: dadata-ru.php:56
+msgid "Settings"
+msgstr "Настройки"
+
+#. Author URI of the plugin
+msgid "https://shafeev.net/"
+msgstr "https://shafeev.net/"
+
+#. Author of the plugin
+msgid "Shamil Shafeev"
+msgstr "Shamil Shafeev"
+
+#. Description of the plugin
+msgid "Быстрый ввод адресов, компаний, банков, ФИО, email и ещё много чего. Маска ввода телефона для российских и других номеров."
+msgstr "Быстрый ввод адресов, компаний, банков, ФИО, email и ещё много чего. Маска ввода телефона для российских и других номеров."
+
+#. Plugin URI of the plugin
+msgid "https://shafeev.net/plugins/podskazki-ot-dadata-ru"
+msgstr "https://shafeev.net/plugins/podskazki-ot-dadata-ru"
+
+#. Plugin Name of the plugin
+msgid "«Подсказки» от DaData.ru"
+msgstr "«Подсказки» от DaData.ru"

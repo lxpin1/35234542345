@@ -1,0 +1,360 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+#wps-telegram-chat{
+	position: fixed;
+    bottom: 20px;
+    right: 70px;
+    width: 300px;
+	border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+	background: #ffffff;
+    box-shadow: 1px 1px 0px #555555;
+	overflow: hidden;
+	z-index: 500;
+	box-sizing: content-box;
+}
+#wps-telegram-chat.init{
+	visibility: hidden;
+}
+#wps-telegram-chat.onlySpecificPages{
+	display: none;
+}
+
+#wps-telegram-chat-wrapp > div{
+	box-sizing: border-box;
+	position: relative;
+}
+#wps-telegram-chat h5{
+	margin: 0;
+    border-bottom: 1px solid #cccccc;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 8px;
+	padding-right: 50px;
+	padding-left: 24px;
+}
+
+#wps-telegram-chat-app,
+#wps-telegram-chat-close,
+#wps-telegram-chat-update{
+	position: absolute;
+    top: 5px;
+    right: 6px;
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+	box-sizing: border-box;
+    border-radius: 50%;
+	border: 1px solid #cccccc;
+	padding: 2px;
+	z-index: 10;
+	background-image: url('../img/close.svg');
+	background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+	overflow: hidden;
+}
+#wps-telegram-chat-app{
+	right: 32px;
+	background-image: url('../img/telegram-icon.svg');
+	background-size: 76%;
+    background-position: 30% 50%;
+}
+#wps-telegram-chat-app:hover{
+	background-color: lightblue;
+}
+#wps-telegram-chat-app a{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#wps-telegram-chat-update{
+	right: auto;
+	left: 10px;
+    top: 10px;
+    transition: all 0.5s ease;
+	background-image: url('../img/update.svg');
+	background-size: 50%;
+	cursor: default;
+	border-color: #ffffff;
+}
+#wps-telegram-chat-update.ping{
+	background-color: greenyellow;
+	transform: rotate(180deg);
+}
+#wps-telegram-chat-update.error{
+	background-color: lightsalmon;
+}
+
+#wps-telegram-chat-close img{
+	display: none;
+}
+#wps-telegram-chat.show #wps-telegram-chat-close:hover{
+	background-color: lightsalmon;
+}
+
+#wps-telegram-chat.blurry{
+	filter: blur(10px);
+}
+
+#wps-telegram-chat.hide{
+	width: 32px;
+    height: 32px;
+	border-radius: 50%;
+	background: #30a3e6;
+	transition: width, height, padding 0.3s cubic-bezier(0.1, -5, 0.5, 5);
+	display: block !important;
+}
+
+#wps-telegram-chat.init.hide{
+	transition: none;
+}
+#wps-telegram-chat.hide.hover{
+	padding: 14px;
+}
+#wps-telegram-chat.hide #wps-telegram-chat-wrapp,
+#wps-telegram-chat.hide #wps-telegram-chat-update,
+#wps-telegram-chat.hide #wps-telegram-chat-app{
+	display: none;
+}
+#wps-telegram-chat.hide #wps-telegram-chat-close{
+	width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding: 10%;
+	background-image: url('../img/chat_icon.svg');
+	background-size: 80%;
+	border: none;
+}
+#wps-telegram-chat.hide #wps-telegram-chat-close{
+    filter: invert(1);
+	animation: wps-telegram-chat-spin 2s linear infinite alternate-reverse;
+}
+@keyframes wps-telegram-chat-spin{
+	0% { transform: rotate(0deg); }
+	2% { transform: rotate(5deg); }
+	4% { transform: rotate(0eg); }
+	6% { transform: rotate(-5deg); }
+	8% { transform: rotate(0deg); }
+	100% { transform: rotate(0deg); }
+}
+
+#wps-telegram-chat-welcome p{
+	margin: 0;
+    background: #eeeeee;
+    padding: 8px;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 0 0 5px 5px;
+}
+
+#wps-telegram-chat-textarea{
+	margin-right: 50px;
+}
+#wps-telegram-chat-textarea textarea{
+    box-sizing: border-box;
+	width: 100%;
+    max-width: 100%;
+	min-width: 100%;
+	min-height: 70px;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 4px;
+	margin: 0;
+	display: block;
+}
+
+#wps-telegram-chat-send{
+	position: absolute;
+    bottom: 15px;
+    right: 0;
+    cursor: pointer;
+    background: #30a3e6;
+    border-radius: 50%;
+    padding: 1%;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    line-height: 0;
+	border: 1px solid #ffffff;
+}
+#wps-telegram-chat-send i{
+    filter: invert(1);
+    background-image: url(../img/send.svg);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: 0% 70%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#wps-telegram-chat-send:hover{
+	background: #2a91cd;
+}
+
+#wps-telegram-chat-input.disabled{
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+#wps-telegram-chat-content{
+	min-height: 120px;
+	max-height: 300px;
+    overflow: auto;
+	padding: 0 4px;
+    margin: 8px 0;
+}
+div#wps-telegram-chat-content::-webkit-scrollbar{
+	width: 4px;
+}
+div#wps-telegram-chat-content::-webkit-scrollbar-track{
+	background-color: darkgrey;
+}
+div#wps-telegram-chat-content::-webkit-scrollbar-thumb{
+	background-color: #30a3e6;
+}
+#wps-telegram-chat-content .content{
+	background: #eeeeee;
+    padding: 5px;
+    margin: 8px 0 8px 15px;
+    border-radius: 4px;
+	border: 1px solid #999999;
+}
+#wps-telegram-chat-content .content > div{
+	position: relative;
+}
+#wps-telegram-chat-content .content p{
+	margin: 0;
+}
+#wps-telegram-chat-content .content p.icon{
+	position: absolute;
+    top: 50%;
+    left: -20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+	background-repeat: no-repeat;
+    background-position: center 2px;
+    background-size: cover;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    border: 1px solid #999999;
+	transform: translate(0, -50%);
+	display: block;
+}
+#wps-telegram-chat-content .content p.date{
+	color: #555555;
+    font-size: 12px;
+    text-align: right;
+}
+#wps-telegram-chat-content .content p.message{
+	margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+	padding-left: 25px;
+}
+
+#wps-telegram-chat-content .content.error{
+	margin: 8px;
+	background-color: lightsalmon;
+}
+#wps-telegram-chat-content .error > div{
+	overflow: hidden;
+}
+#wps-telegram-chat-content .error p.icon{
+	display: none;
+}
+#wps-telegram-chat-content .error .date{
+	display: none;
+}
+#wps-telegram-chat-content .error p.message{
+	text-align: center;
+	padding: 0;
+	color: #222;
+}
+
+#wps-telegram-chat-content .incomingMessage{
+	margin: 8px 15px 8px 0;
+}
+#wps-telegram-chat-content .incomingMessage p.icon{
+	left: auto;
+	right: -20px;
+}
+#wps-telegram-chat-content .incomingMessage p.date{
+    text-align: left;
+}
+#wps-telegram-chat-content .incomingMessage p.message{
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+#wps-telegram-chat-content .info{
+	background: lightyellow;
+}
+
+@media screen and (max-width: 680px) {
+	#wps-telegram-chat{ bottom: 2%; right: 4%;}
+}
+
+
+/* SHORT CODES */
+#wps-telegram-contactForm{
+	max-width: 800px;
+	margin: auto;
+}
+#wps-telegram-contactForm #wpsContactSubmit div{
+	text-align: right;
+}
+#wps-telegram-contactForm #wpsContactNotice{
+	font-size: 120%;
+    text-align: center;
+	display: none;
+}
+
+/* FULLSCREEN */
+#wps-telegram-chat.fullscreen{
+	height: 100%;
+	width: 100%;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+	box-sizing: border-box;
+}
+#wps-telegram-chat.fullscreen #wps-telegram-chat-wrapp{
+	height: 100%;
+}
+#wps-telegram-chat.fullscreen #wps-telegram-chat-header{
+	min-height: 6%;
+}
+#wps-telegram-chat.fullscreen #wps-telegram-chat-welcome{
+	min-height: 10%;
+}
+#wps-telegram-chat.fullscreen #wps-telegram-chat-content{
+	min-height: 66%;
+}
+#wps-telegram-chat.fullscreen #wps-telegram-chat-input{
+	min-height: 14%;
+	margin-right: 50px;
+}
+#wps-telegram-chat.fullscreen #wps-telegram-chat-textarea{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+	margin-right: 0;
+	left: 0;
+    top: 0;
+}
+#wps-telegram-chat.fullscreen #wps-telegram-chat-textarea textarea{
+	height: 100%;
+}
+#wps-telegram-chat.fullscreen #wps-telegram-chat-send{
+	right: -50px;
+	padding: 0px;
+}

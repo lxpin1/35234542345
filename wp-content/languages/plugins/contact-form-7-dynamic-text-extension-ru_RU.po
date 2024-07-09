@@ -1,0 +1,96 @@
+# Translation of Plugins - Contact Form 7 &#8211; Dynamic Text Extension - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Contact Form 7 &#8211; Dynamic Text Extension - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-03 08:52:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Contact Form 7 &#8211; Dynamic Text Extension - Stable (latest release)\n"
+
+#. Plugin URI of the plugin
+msgid "https://sevenspark.com/goods/contact-form-7-dynamic-text-extension"
+msgstr "https://sevenspark.com/goods/contact-form-7-dynamic-text-extension"
+
+#. Author of the plugin
+msgid "SevenSpark, AuRise Creative"
+msgstr "SevenSpark, AuRise Creative"
+
+#: includes/admin.php:97
+msgid "DTX knowledge base"
+msgstr "База знаний DTX"
+
+#: includes/admin.php:140 includes/admin.php:222 includes/admin.php:345
+msgid "Can be static text or a shortcode."
+msgstr "Может быть статическим текстом или шорткодом."
+
+#: includes/admin.php:180
+msgid "View DTX shortcode syntax documentation"
+msgstr "Посмотреть документацию по синтаксису шорткода DTX"
+
+#: includes/admin.php:220
+msgid "Dynamic placeholder"
+msgstr "Динамический заполнитель"
+
+#: includes/admin.php:243
+msgid "View DTX placeholder documentation"
+msgstr "Просмотреть документацию по заполнителю DTX"
+
+#: includes/admin.php:400
+msgid "Read only attribute"
+msgstr "Атрибут только для чтения"
+
+#: includes/admin.php:407
+msgid "Do not let users edit this field"
+msgstr "Не позволяйте пользователям редактировать это поле"
+
+#. Description of the plugin
+msgid "This plugin extends Contact Form 7 by adding dynamic form fields that accept any shortcode to generate default values and placeholder text. Requires Contact Form 7."
+msgstr "Этот плагин расширяет Contact Form 7, добавляя динамические поля формы, которые принимают любой шорткод для генерации значений по умолчанию и текста-заполнителя. Требуется Contact Form 7."
+
+#: includes/admin.php:373
+msgid "Id attribute"
+msgstr "Атрибут Id"
+
+#: includes/admin.php:127
+msgid "Name"
+msgstr "Имя"
+
+#: includes/admin.php:112
+msgid "Field type"
+msgstr "Тип поля"
+
+#: includes/admin.php:464
+msgid "Insert Tag"
+msgstr "Вставить тег"
+
+#: includes/admin.php:118
+msgid "Required field"
+msgstr "Обязательное поле"
+
+#. Plugin Name of the plugin
+msgid "Contact Form 7 - Dynamic Text Extension"
+msgstr "Contact Form 7 - Dynamic Text Extension"
+
+#: includes/admin.php:139
+msgid "Dynamic value"
+msgstr "Динамическое значение"
+
+#: contact-form-7-dynamic-text-extension.php:72
+msgid "dynamic hidden"
+msgstr "динамичное скрытое"
+
+#: contact-form-7-dynamic-text-extension.php:67
+msgid "dynamic text"
+msgstr "динамичное текстовое"
+
+#. Author URI of the plugin
+msgid "https://sevenspark.com"
+msgstr "https://sevenspark.com"
+
+#: includes/admin.php:386
+msgid "Class attribute"
+msgstr "Атрибут class"

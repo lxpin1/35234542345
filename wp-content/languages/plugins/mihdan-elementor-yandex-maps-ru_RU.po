@@ -1,0 +1,1068 @@
+# Translation of Plugins - Mihdan: Elementor Yandex Maps - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Mihdan: Elementor Yandex Maps - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-16 18:18:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Mihdan: Elementor Yandex Maps - Stable (latest release)\n"
+
+#: includes/class-widget.php:1108
+msgid "Icon Image"
+msgstr "Изображение"
+
+#: includes/class-widget.php:874 includes/class-widget.php:1093
+msgid "Icon Size"
+msgstr "Размер"
+
+#: includes/class-widget.php:1535
+msgid "Not select"
+msgstr "Не выбрано"
+
+#: includes/class-widget.php:1218
+msgid "KML"
+msgstr "KML"
+
+#: includes/class-widget.php:1207
+msgid "Show Post Permalink"
+msgstr "Показать ссылку на запись"
+
+#: includes/class-widget.php:1198
+msgid "Show Post Thumbnail"
+msgstr "Показать изображение записи"
+
+#: includes/class-widget.php:1036
+msgid "Limit"
+msgstr "Лимит"
+
+#: includes/class-widget.php:1016 includes/class-widget.php:1023
+msgid "Post Type"
+msgstr "Тип записи"
+
+#: includes/class-widget.php:804
+msgid "Manual"
+msgstr "Ручками"
+
+#: includes/class-acf-tag.php:42
+msgid "Fields"
+msgstr "Поля"
+
+#: includes/class-acf-tag.php:32
+msgid "Test"
+msgstr "Тест"
+
+#: includes/class-widget.php:889
+msgid "Image"
+msgstr "Изображение"
+
+#: includes/class-widget.php:91
+msgid "Custom"
+msgstr "Произвольно"
+
+#: includes/class-widget.php:524
+msgid "Invert"
+msgstr "Инверсия"
+
+#: includes/class-widget.php:520
+msgid "Brightness"
+msgstr "Яркость"
+
+#: includes/class-widget.php:519
+msgid "Sepia"
+msgstr "Сепия"
+
+#: includes/class-widget.php:518
+msgid "Grayscale"
+msgstr "Чёрно-белый"
+
+#: includes/class-widget.php:517
+msgid "None"
+msgstr "Нет"
+
+#: includes/class-widget.php:514
+msgid "Позволяет перекрасить карту."
+msgstr "Позволяет перекрасить карту."
+
+#: includes/class-widget.php:513
+msgid "Map Filter"
+msgstr "Фильтр карты"
+
+#. translators: display name for current user
+#: includes/class-main.php:336
+msgid "Hi, %s"
+msgstr "Привет, %s"
+
+#. translators: link to plugin rating.
+#: includes/class-main.php:326
+msgid "Enjoyed Elementor Yandex Maps? Please leave us a <a href=\"%s\" target=\"_blank\">★★★★★</a> rating. We really appreciate your support!"
+msgstr "Нравится плагин Elementor Yandex Maps? Пожалуйста, оставьте <a href=\"%s\" target=\"_blank\">★★★★★</a> отзыв. Мы очень ценим вашу поддержку!"
+
+#: includes/class-widget.php:504
+msgid "Turkey"
+msgstr "Турция"
+
+#: includes/class-widget.php:503
+msgid "USA"
+msgstr "США"
+
+#: includes/class-widget.php:502
+msgid "Ukraine"
+msgstr "Украина"
+
+#: includes/class-widget.php:501
+msgid "Russia"
+msgstr "Россия"
+
+#: includes/class-widget.php:498
+msgid "Определяет региональные особенности, например единицу измерения (для обозначения расстояния между объектами или скорости движения по маршруту). Для регионов RU, UA и TR расстояние показывается в километрах, для US — в милях."
+msgstr "Определяет региональные особенности, например единицу измерения (для обозначения расстояния между объектами или скорости движения по маршруту). Для регионов RU, UA и TR расстояние показывается в километрах, для US — в милях."
+
+#: includes/class-widget.php:497
+msgid "Map Region"
+msgstr "Регион"
+
+#: includes/class-widget.php:488
+msgid "Turkish"
+msgstr "Турецкий"
+
+#: includes/class-widget.php:487
+msgid "English"
+msgstr "Английский"
+
+#: includes/class-widget.php:486
+msgid "Ukrainian"
+msgstr "Украинский"
+
+#: includes/class-widget.php:485
+msgid "Russian"
+msgstr "Русский"
+
+#: includes/class-widget.php:482
+msgid "Задает язык объектов на карте (топонимов, элементов управления)."
+msgstr "Задает язык объектов на карте (топонимов, элементов управления)."
+
+#: includes/class-widget.php:481
+msgid "Map Language"
+msgstr "Язык"
+
+#: includes/class-widget.php:979
+msgid "Balloon Is Opened"
+msgstr "Балун открыт?"
+
+#: includes/class-widget.php:967 includes/class-widget.php:1186
+msgid "Balloon Content Footer"
+msgstr "Содержимое подвала балуна"
+
+#: includes/class-widget.php:955 includes/class-widget.php:1174
+msgid "Balloon Content Body"
+msgstr "Содержимое тела балуна"
+
+#: includes/class-widget.php:942 includes/class-widget.php:1161
+msgid "Balloon Content Header"
+msgstr "Содержимое шапки балуна"
+
+#: includes/class-widget.php:916 includes/class-widget.php:1135
+msgid "Icon Content"
+msgstr "Содержимое иконки"
+
+#: includes/class-widget.php:903 includes/class-widget.php:1122
+msgid "Icon Caption"
+msgstr "Подсказка иконки"
+
+#: includes/class-widget.php:223
+msgid "Zoo Circle Icon"
+msgstr "Zoo Circle Icon"
+
+#: includes/class-widget.php:222
+msgid "Worship Circle Icon"
+msgstr "Worship Circle Icon"
+
+#: includes/class-widget.php:221
+msgid "Waterway Circle Icon"
+msgstr "Waterway Circle Icon"
+
+#: includes/class-widget.php:220
+msgid "WaterPark Circle Icon"
+msgstr "WaterPark Circle Icon"
+
+#: includes/class-widget.php:219
+msgid "Waste Circle Icon"
+msgstr "Waste Circle Icon"
+
+#: includes/class-widget.php:218
+msgid "Video Circle Icon"
+msgstr "Video Circle Icon"
+
+#: includes/class-widget.php:217
+msgid "Vegetation Circle Icon"
+msgstr "Vegetation Circle Icon"
+
+#: includes/class-widget.php:216
+msgid "Underpass Circle Icon"
+msgstr "Underpass Circle Icon"
+
+#: includes/class-widget.php:215
+msgid "Toilet Circle Icon"
+msgstr "Toilet Circle Icon"
+
+#: includes/class-widget.php:214
+msgid "Theater Circle Icon"
+msgstr "Theater Circle Icon"
+
+#: includes/class-widget.php:213
+msgid "Star Circle Icon"
+msgstr "Star Circle Icon"
+
+#: includes/class-widget.php:212
+msgid "Sport Circle Icon"
+msgstr "Sport Circle Icon"
+
+#: includes/class-widget.php:211
+msgid "Souvenirs Circle Icon"
+msgstr "Souvenirs Circle Icon"
+
+#: includes/class-widget.php:210
+msgid "Shopping Circle Icon"
+msgstr "Shopping Circle Icon"
+
+#: includes/class-widget.php:209
+msgid "Science Circle Icon"
+msgstr "Science Circle Icon"
+
+#: includes/class-widget.php:208
+msgid "Run Circle Icon"
+msgstr "Run Circle Icon"
+
+#: includes/class-widget.php:207
+msgid "RepairShop Circle Icon"
+msgstr "RepairShop Circle Icon"
+
+#: includes/class-widget.php:206
+msgid "RapidTransit Circle Icon"
+msgstr "RapidTransit Circle Icon"
+
+#: includes/class-widget.php:205
+msgid "Railway Circle Icon"
+msgstr "Railway Circle Icon"
+
+#: includes/class-widget.php:204
+msgid "Post Circle Icon"
+msgstr "Post Circle Icon"
+
+#: includes/class-widget.php:203
+msgid "Pool Circle Icon"
+msgstr "Pool Circle Icon"
+
+#: includes/class-widget.php:202
+msgid "Pocket Circle Icon"
+msgstr "Pocket Circle Icon"
+
+#: includes/class-widget.php:201
+msgid "Person Circle Icon"
+msgstr "Person Circle Icon"
+
+#: includes/class-widget.php:200
+msgid "Parking Circle Icon"
+msgstr "Parking Circle Icon"
+
+#: includes/class-widget.php:199
+msgid "Park Circle Icon"
+msgstr "Park Circle Icon"
+
+#: includes/class-widget.php:198
+msgid "Observation Circle Icon"
+msgstr "Observation Circle Icon"
+
+#: includes/class-widget.php:197
+msgid "NightClub Circle Icon"
+msgstr "NightClub Circle Icon"
+
+#: includes/class-widget.php:196
+msgid "Mountain Circle Icon"
+msgstr "Mountain Circle Icon"
+
+#: includes/class-widget.php:195
+msgid "Money Circle Icon"
+msgstr "Money Circle Icon"
+
+#: includes/class-widget.php:194
+msgid "Medical Circle Icon"
+msgstr "Medical Circle Icon"
+
+#: includes/class-widget.php:193
+msgid "MassTransit Circle Icon"
+msgstr "MassTransit Circle Icon"
+
+#: includes/class-widget.php:192
+msgid "Leisure Circle Icon"
+msgstr "Leisure Circle Icon"
+
+#: includes/class-widget.php:191
+msgid "Laundry Circle Icon"
+msgstr "Laundry Circle Icon"
+
+#: includes/class-widget.php:190
+msgid "Info Circle Icon"
+msgstr "Info Circle Icon"
+
+#: includes/class-widget.php:189
+msgid "Hydro Circle Icon"
+msgstr "Hydro Circle Icon"
+
+#: includes/class-widget.php:188
+msgid "Hotel Circle Icon"
+msgstr "Hotel Circle Icon"
+
+#: includes/class-widget.php:187
+msgid "Home Circle Icon"
+msgstr "Home Circle Icon"
+
+#: includes/class-widget.php:186
+msgid "Heart Circle Icon"
+msgstr "Heart Circle Icon"
+
+#: includes/class-widget.php:185
+msgid "Government Circle Icon"
+msgstr "Government Circle Icon"
+
+#: includes/class-widget.php:184
+msgid "Garden Circle Icon"
+msgstr "Garden Circle Icon"
+
+#: includes/class-widget.php:183
+msgid "FuelStation Circle Icon"
+msgstr "FuelStation Circle Icon"
+
+#: includes/class-widget.php:182
+msgid "Food Circle Icon"
+msgstr "Food Circle Icon"
+
+#: includes/class-widget.php:181
+msgid "Fashion Circle Icon"
+msgstr "Fashion Circle Icon"
+
+#: includes/class-widget.php:180
+msgid "Family Circle Icon"
+msgstr "Family Circle Icon"
+
+#: includes/class-widget.php:179
+msgid "Factory Circle Icon"
+msgstr "Factory Circle Icon"
+
+#: includes/class-widget.php:178
+msgid "EntertainmentCenter Circle Icon"
+msgstr "EntertainmentCenter Circle Icon"
+
+#: includes/class-widget.php:177
+msgid "Education Circle Icon"
+msgstr "Education Circle Icon"
+
+#: includes/class-widget.php:176
+msgid "Dog Circle Icon"
+msgstr "Dog Circle Icon"
+
+#: includes/class-widget.php:175
+msgid "Discount Circle Icon"
+msgstr "Discount Circle Icon"
+
+#: includes/class-widget.php:174
+msgid "Delivery Circle Icon"
+msgstr "Delivery Circle Icon"
+
+#: includes/class-widget.php:173
+msgid "Court Circle Icon"
+msgstr "Court Circle Icon"
+
+#: includes/class-widget.php:172
+msgid "Circus Circle Icon"
+msgstr "Circus Circle Icon"
+
+#: includes/class-widget.php:171
+msgid "Cinema Circle Icon"
+msgstr "Cinema Circle Icon"
+
+#: includes/class-widget.php:169
+msgid "CarWash Circle Icon"
+msgstr "CarWash Circle Icon"
+
+#: includes/class-widget.php:168 includes/class-widget.php:170
+msgid "Book Circle Icon"
+msgstr "Book Circle Icon"
+
+#: includes/class-widget.php:167
+msgid "Bicycle2 Circle Icon"
+msgstr "Bicycle2 Circle Icon"
+
+#: includes/class-widget.php:166
+msgid "Bicycle Circle Icon"
+msgstr "Bicycle Circle Icon"
+
+#: includes/class-widget.php:165
+msgid "Beach Circle Icon"
+msgstr "Beach Circle Icon"
+
+#: includes/class-widget.php:164
+msgid "Barber Circle Icon"
+msgstr "Barber Circle Icon"
+
+#: includes/class-widget.php:163
+msgid "Bar Circle Icon"
+msgstr "Bar Circle Icon"
+
+#: includes/class-widget.php:162
+msgid "Auto Circle Icon"
+msgstr "Auto Circle Icon"
+
+#: includes/class-widget.php:161
+msgid "Attention Circle Icon"
+msgstr "Attention Circle Icon"
+
+#: includes/class-widget.php:160
+msgid "Airport Circle Icon"
+msgstr "Airport Circle Icon"
+
+#: includes/class-widget.php:159
+msgid "Zoo Icon"
+msgstr "Zoo Icon"
+
+#: includes/class-widget.php:158
+msgid "Worship Icon"
+msgstr "Worship Icon"
+
+#: includes/class-widget.php:157
+msgid "Waterway Icon"
+msgstr "Waterway Icon"
+
+#: includes/class-widget.php:156
+msgid "WaterPark Icon"
+msgstr "WaterPark Icon"
+
+#: includes/class-widget.php:155
+msgid "Waste Icon"
+msgstr "Waste Icon"
+
+#: includes/class-widget.php:154
+msgid "Video Icon"
+msgstr "Video Icon"
+
+#: includes/class-widget.php:153
+msgid "Vegetation Icon"
+msgstr "Vegetation Icon"
+
+#: includes/class-widget.php:152
+msgid "Underpass Icon"
+msgstr "Underpass Icon"
+
+#: includes/class-widget.php:151
+msgid "Toilet Icon"
+msgstr "Toilet Icon"
+
+#: includes/class-widget.php:150
+msgid "Theater Icon"
+msgstr "Theater Icon"
+
+#: includes/class-widget.php:149
+msgid "Star Icon"
+msgstr "Star Icon"
+
+#: includes/class-widget.php:148
+msgid "Sport Icon"
+msgstr "Sport Icon"
+
+#: includes/class-widget.php:147
+msgid "Souvenirs Icon"
+msgstr "Souvenirs Icon"
+
+#: includes/class-widget.php:146
+msgid "Shopping Icon"
+msgstr "Shopping Icon"
+
+#: includes/class-widget.php:145
+msgid "Science Icon"
+msgstr "Science Icon"
+
+#: includes/class-widget.php:144
+msgid "Run Icon"
+msgstr "Run Icon"
+
+#: includes/class-widget.php:143
+msgid "RepairShop Icon"
+msgstr "RepairShop Icon"
+
+#: includes/class-widget.php:142
+msgid "RapidTransit Icon"
+msgstr "RapidTransit Icon"
+
+#: includes/class-widget.php:141
+msgid "Railway Icon"
+msgstr "Railway Icon"
+
+#: includes/class-widget.php:140
+msgid "Post Icon"
+msgstr "Post Icon"
+
+#: includes/class-widget.php:139
+msgid "Pool Icon"
+msgstr "Pool Icon"
+
+#: includes/class-widget.php:138
+msgid "Pocket Icon"
+msgstr "Pocket Icon"
+
+#: includes/class-widget.php:137
+msgid "Person Icon"
+msgstr "Person Icon"
+
+#: includes/class-widget.php:136
+msgid "Parking Icon"
+msgstr "Parking Icon"
+
+#: includes/class-widget.php:135
+msgid "Park Icon"
+msgstr "Park Icon"
+
+#: includes/class-widget.php:134
+msgid "Observation Icon"
+msgstr "Observation Icon"
+
+#: includes/class-widget.php:133
+msgid "NightClub Icon"
+msgstr "NightClub Icon"
+
+#: includes/class-widget.php:132
+msgid "Mountain Icon"
+msgstr "Mountain Icon"
+
+#: includes/class-widget.php:131
+msgid "Money Icon"
+msgstr "Money Icon"
+
+#: includes/class-widget.php:130
+msgid "Medical Icon"
+msgstr "Medical Icon"
+
+#: includes/class-widget.php:129
+msgid "MassTransit Icon"
+msgstr "MassTransit Icon"
+
+#: includes/class-widget.php:128
+msgid "Leisure Icon"
+msgstr "Leisure Icon"
+
+#: includes/class-widget.php:127
+msgid "Laundry Icon"
+msgstr "Laundry Icon"
+
+#: includes/class-widget.php:126
+msgid "Info Icon"
+msgstr "Info Icon"
+
+#: includes/class-widget.php:125
+msgid "Hydro Icon"
+msgstr "Hydro Icon"
+
+#: includes/class-widget.php:124
+msgid "Hotel Icon"
+msgstr "Hotel Icon"
+
+#: includes/class-widget.php:123
+msgid "Home Icon"
+msgstr "Home Icon"
+
+#: includes/class-widget.php:122
+msgid "Heart Icon"
+msgstr "Heart Icon"
+
+#: includes/class-widget.php:121
+msgid "Government Icon"
+msgstr "Government Icon"
+
+#: includes/class-widget.php:120
+msgid "Garden Icon"
+msgstr "Garden Icon"
+
+#: includes/class-widget.php:119
+msgid "FuelStation Icon"
+msgstr "FuelStation Icon"
+
+#: includes/class-widget.php:118
+msgid "Food Icon"
+msgstr "Food Icon"
+
+#: includes/class-widget.php:117
+msgid "Fashion Icon"
+msgstr "Fashion Icon"
+
+#: includes/class-widget.php:116
+msgid "Family Icon"
+msgstr "Family Icon"
+
+#: includes/class-widget.php:115
+msgid "Factory Icon"
+msgstr "Factory Icon"
+
+#: includes/class-widget.php:114
+msgid "EntertainmentCenter Icon"
+msgstr "EntertainmentCenter Icon"
+
+#: includes/class-widget.php:113
+msgid "Education Icon"
+msgstr "Education Icon"
+
+#: includes/class-widget.php:112
+msgid "Dog Icon"
+msgstr "Dog Icon"
+
+#: includes/class-widget.php:111
+msgid "Discount Icon"
+msgstr "Discount Icon"
+
+#: includes/class-widget.php:110
+msgid "Delivery Icon"
+msgstr "Delivery Icon"
+
+#: includes/class-widget.php:109
+msgid "Court Icon"
+msgstr "Court Icon"
+
+#: includes/class-widget.php:108
+msgid "Circus Icon"
+msgstr "Circus Icon"
+
+#: includes/class-widget.php:107
+msgid "Cinema Icon"
+msgstr "Cinema Icon"
+
+#: includes/class-widget.php:105
+msgid "CarWash Icon"
+msgstr "CarWash Icon"
+
+#: includes/class-widget.php:104 includes/class-widget.php:106
+msgid "Book Icon"
+msgstr "Book Icon"
+
+#: includes/class-widget.php:103
+msgid "Bicycle2 Icon"
+msgstr "Bicycle2 Icon"
+
+#: includes/class-widget.php:102
+msgid "Bicycle Icon"
+msgstr "Bicycle Icon"
+
+#: includes/class-widget.php:101
+msgid "Beach Icon"
+msgstr "Beach Icon"
+
+#: includes/class-widget.php:99
+msgid "Bar Icon"
+msgstr "Bar Icon"
+
+#: includes/class-widget.php:98
+msgid "Auto Icon"
+msgstr "Auto Icon"
+
+#: includes/class-widget.php:97
+msgid "Attention Icon"
+msgstr "Attention Icon"
+
+#: includes/class-widget.php:96
+msgid "Airport Icon"
+msgstr "Airport Icon"
+
+#: includes/class-widget.php:95
+msgid "Circle Dot Icon"
+msgstr "Circle Dot Icon"
+
+#: includes/class-widget.php:94
+msgid "Circle Icon"
+msgstr "Circle Icon"
+
+#: includes/class-widget.php:93
+msgid "Dot Icon"
+msgstr "Dot Icon"
+
+#: includes/class-widget.php:92
+msgid "Stretchy Icon"
+msgstr "Stretchy Icon"
+
+#: includes/class-widget.php:90
+msgid "Default Icon"
+msgstr "Default Icon"
+
+#: includes/class-widget.php:864 includes/class-widget.php:1083
+msgid "Icon Type"
+msgstr "Тип"
+
+#: includes/class-widget.php:853 includes/class-widget.php:1073
+msgid "Icon Color"
+msgstr "Цвет"
+
+#: includes/class-widget.php:944 includes/class-widget.php:1000
+#: includes/class-widget.php:1163
+msgid "Balloon Content Header Default"
+msgstr "Содержимое шапки балуна по умолчанию"
+
+#: includes/class-widget.php:77
+msgid "Gray"
+msgstr "Серый"
+
+#: includes/class-widget.php:74
+msgid "Night"
+msgstr "Ночь"
+
+#: includes/class-widget.php:778
+msgid "Cluster Color"
+msgstr "Цвет кластера"
+
+#: includes/class-widget.php:771
+msgid "Включить кластеризацию"
+msgstr "Включить кластеризацию"
+
+#: includes/class-widget.php:768
+msgid "Enable Object Manager"
+msgstr "Кластеризация"
+
+#: includes/class-widget.php:761
+msgid "Object Manager"
+msgstr "Кластеризация"
+
+#: includes/class-widget.php:351 includes/class-widget.php:818
+msgid "Enter Search Address"
+msgstr "Введите адрес для поиска"
+
+#. translators: link to settings page.
+#: includes/class-main.php:299
+msgid "To make plugin Mihdan: Elementor Yandex Maps work properly, you should <a href=\"%s\">specify the Yandex Maps API key</a>."
+msgstr "Для правильной работы плагина Elementor Yandex Maps необходимо <a href=\"%s\">указать ключ</a> для Yandex Maps API."
+
+#: includes/class-requirements.php:96
+msgid "PHP"
+msgstr "PHP"
+
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: includes/class-requirements.php:70 includes/class-requirements.php:94
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr "\"%1$s\" требует \"%2$s\" версию %3$s или выше."
+
+#: includes/class-requirements.php:49 includes/class-requirements.php:72
+msgid "Elementor"
+msgstr "Elementor"
+
+#. translators: 1: Plugin name 2: Elementor
+#: includes/class-requirements.php:47
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr "Для правильной работы плагина \"%1$s\" требуется установленный и настроенный \"%2$s\"."
+
+#: includes/class-main.php:264
+msgid "API Key"
+msgstr "Ключ API"
+
+#: includes/class-main.php:247
+msgid "<p>Go to the <a href=\"https://developer.tech.yandex.ru/\" target=\"_blank\">Developer's Dashboard</a> and press “Get key”. In the popup window, select the “JavaScript API, Geocoding API” option.</p><p>After you select the service, the form appears. In this form, you need to provide your contact information. After you fill in the form, the “Service successfully connected” text appears. The created key is now available in the “Keys” section. Use it when you enable the API.</p>"
+msgstr "<p>Зайдите на страницу <a href=\"https://developer.tech.yandex.ru/\" target=\"_blank\">Кабинета Разработчика</a> и нажмите кнопку Получить ключ. Во всплывающем окне выберите сервис «JavaScript API и HTTP Геокодер».</p><p>После заполнения формы появится надпись «Сервис успешно подключен». Созданный ключ будет доступен в разделе «Ключи». Его необходимо использовать в дальнейшем при подключении API.</p>"
+
+#: includes/class-widget.php:819
+msgid "Search"
+msgstr "Найти"
+
+#. Author URI of the plugin
+msgid "https://www.kobzarev.com/"
+msgstr "https://www.kobzarev.com/"
+
+#. Author of the plugin
+msgid "Mikhail Kobzarev"
+msgstr "Михаил Кобзарёв"
+
+#. Description of the plugin
+msgid "Elementor Yandex Maps Widget - Easily add multiple address pins onto the same map with support for different map types (Road Map/Satellite/Hybrid/Terrain) and custom map style. Freely edit info window content of your pins with the standard Elementor text editor. And many more custom map options."
+msgstr "Виджет Яндекс.Карты для Elementor - это простой способ добавить множество меток с адресами на Яндекс.Карту с поддержкой всех возможных типов: Схема, Спутник, Гибрид. Количество карт на странице и их параметров не ограничены ничем, кроме вашей фантазии."
+
+#. Plugin Name of the plugin
+#: includes/class-requirements.php:48 includes/class-requirements.php:71
+#: includes/class-requirements.php:95
+msgid "Mihdan: Elementor Yandex Maps"
+msgstr "Яндекс.Карты для Elementor от Mihdan"
+
+#: includes/class-widget.php:929 includes/class-widget.php:1148
+msgid "Hint Content"
+msgstr "Содержимое подсказки"
+
+#: includes/class-widget.php:86
+msgid "Olive"
+msgstr "Оливковый"
+
+#: includes/class-widget.php:85
+msgid "Light Blue"
+msgstr "Светло-синий"
+
+#: includes/class-widget.php:84
+msgid "Orange"
+msgstr "Оранжевый"
+
+#: includes/class-widget.php:83 includes/class-widget.php:521
+msgid "Green"
+msgstr "Зелёный"
+
+#: includes/class-widget.php:82
+msgid "Yellow"
+msgstr "Жёлтый"
+
+#: includes/class-widget.php:81
+msgid "Black"
+msgstr "Чёрный"
+
+#: includes/class-widget.php:80
+msgid "Violet"
+msgstr "Фиолетовый"
+
+#: includes/class-widget.php:79
+msgid "Dark Green"
+msgstr "Тёмно-зелёный"
+
+#: includes/class-widget.php:523
+msgid "Purple"
+msgstr "Пурпурный"
+
+#: includes/class-widget.php:78
+msgid "Brown"
+msgstr "Коричневый"
+
+#: includes/class-widget.php:76
+msgid "Pink"
+msgstr "Розовый"
+
+#: includes/class-widget.php:75
+msgid "Dark Blue"
+msgstr "Тёмно-синий"
+
+#: includes/class-widget.php:73
+msgid "Dark Orange"
+msgstr "Тёмно-оранжевый"
+
+#: includes/class-widget.php:72
+msgid "Red"
+msgstr "Красный"
+
+#: includes/class-widget.php:71 includes/class-widget.php:522
+msgid "Blue"
+msgstr "Голубой"
+
+#: includes/class-widget.php:100
+msgid "Barber Icon"
+msgstr "Barber Icon"
+
+#: includes/class-widget.php:988
+msgid "Pin Item"
+msgstr "Метки"
+
+#: includes/class-widget.php:793
+msgid "Marker Pins"
+msgstr "Метки"
+
+#: includes/class-widget.php:749
+msgid "Отключить линейку"
+msgstr "Отключить линейку"
+
+#: includes/class-widget.php:746
+msgid "Disable Ruler"
+msgstr "Отключить линейку"
+
+#: includes/class-widget.php:739
+msgid "Отключить редактор маршрутов"
+msgstr "Отключить редактор маршрутов"
+
+#: includes/class-widget.php:736
+msgid "Disable Route Editor"
+msgstr "Отключить редактор маршрутов"
+
+#: includes/class-widget.php:729
+msgid "Отключить масштабирование карты мультисенсорным касанием"
+msgstr "Отключить масштабирование карты мультисенсорным касанием"
+
+#: includes/class-widget.php:726
+msgid "Disable Multi Touch"
+msgstr "Отключить масштабирование карты мультисенсорным касанием"
+
+#: includes/class-widget.php:719
+msgid "Отключить масштабирование карты при выделении области правой кнопкой мыши"
+msgstr "Отключить масштабирование карты при выделении области правой кнопкой мыши"
+
+#: includes/class-widget.php:716
+msgid "Disable Right Mouse Button Magnifier"
+msgstr "Отключить масштабирование карты при выделении области правой кнопкой мыши"
+
+#: includes/class-widget.php:709
+msgid "Отключить масштабирование карты при выделении области левой кнопкой мыши"
+msgstr "Отключить масштабирование карты при выделении области левой кнопкой мыши"
+
+#: includes/class-widget.php:706
+msgid "Disable Left Mouse Button Magnifier"
+msgstr "Отключить масштабирование карты при выделении области левой кнопкой мыши"
+
+#: includes/class-widget.php:699
+msgid "Отключить перетаскивание карты с помощью мыши либо одиночного касания"
+msgstr "Отключить перетаскивание карты с помощью мыши либо одиночного касания"
+
+#: includes/class-widget.php:696
+msgid "Disable Drag"
+msgstr "Отключить перетаскивание карты с помощью мыши"
+
+#: includes/class-widget.php:689
+msgid "Отключить масштабирование карты двойным щелчком кнопки мыши"
+msgstr "Отключить масштабирование карты двойным щелчком кнопки мыши"
+
+#: includes/class-widget.php:686
+msgid "Disable Dbl Click Zoom"
+msgstr "Отключить масштабирование карты двойным щелчком кнопки мыши"
+
+#: includes/class-widget.php:679
+msgid "Отключить прокрутку карты колесом мыши"
+msgstr "Отключить прокрутку карты колесом мыши"
+
+#: includes/class-widget.php:676
+msgid "Disable Scroll Zoom"
+msgstr "Отключить прокрутку карты колесом мыши"
+
+#: includes/class-widget.php:659
+msgid "Map Behavior"
+msgstr "Поведение карты"
+
+#: includes/class-widget.php:647
+msgid "Панель маршрутизации"
+msgstr "Панель маршрутизации"
+
+#: includes/class-widget.php:644
+msgid "Route Panel Control"
+msgstr "Панель маршрутизации"
+
+#: includes/class-widget.php:637
+msgid "Панель для построения маршрутов"
+msgstr "Панель для построения маршрутов"
+
+#: includes/class-widget.php:634
+msgid "Route Button Control"
+msgstr "Кнопка для построения маршрутов"
+
+#: includes/class-widget.php:627
+msgid "Элемент управления «полноэкранным режимом»"
+msgstr "Элемент управления «полноэкранным режимом»"
+
+#: includes/class-widget.php:624
+msgid "Fullscreen Control"
+msgstr "Элемент управления «полноэкранным режимом»"
+
+#: includes/class-widget.php:617
+msgid "Редактор маршрутов"
+msgstr "Редактор маршрутов"
+
+#: includes/class-widget.php:614
+msgid "Route Editor"
+msgstr "Редактор маршрутов"
+
+#: includes/class-widget.php:607
+msgid "Элемент управления геолокацией"
+msgstr "Элемент управления геолокацией"
+
+#: includes/class-widget.php:604
+msgid "Geolocation Control"
+msgstr "Элемент управления геолокацией"
+
+#: includes/class-widget.php:597
+msgid "Ползунок масштаба"
+msgstr "Ползунок масштаба"
+
+#: includes/class-widget.php:594
+msgid "Zoom Control"
+msgstr "Ползунок масштаба"
+
+#: includes/class-widget.php:587
+msgid "Панель переключения типа карт"
+msgstr "Панель переключения типа карт"
+
+#: includes/class-widget.php:584
+msgid "Type Selector"
+msgstr "Панель переключения типа карт"
+
+#: includes/class-widget.php:577
+msgid "Панель пробок"
+msgstr "Панель пробок"
+
+#: includes/class-widget.php:574
+msgid "Traffic Control"
+msgstr "Панель пробок"
+
+#: includes/class-widget.php:567
+msgid "Поиск на карте"
+msgstr "Поиск на карте"
+
+#: includes/class-widget.php:564
+msgid "Search Control"
+msgstr "Поиск на карте"
+
+#: includes/class-widget.php:557
+msgid "Линейка и масштабный отрезок"
+msgstr "Линейка и масштабный отрезок"
+
+#: includes/class-widget.php:554
+msgid "Ruler Control"
+msgstr "Линейка и масштабный отрезок"
+
+#: includes/class-widget.php:547
+msgid "Map Controls"
+msgstr "Элементы управления"
+
+#: includes/class-widget.php:533
+msgid "View"
+msgstr "Вид"
+
+#: includes/class-widget.php:472
+msgid "Hybrid"
+msgstr "Гибрид"
+
+#: includes/class-widget.php:471
+msgid "Satellite"
+msgstr "Спутник"
+
+#: includes/class-widget.php:470
+msgid "Road Map"
+msgstr "Схема"
+
+#: includes/class-widget.php:467
+msgid "Map Type"
+msgstr "Тип карты"
+
+#: includes/class-widget.php:411
+msgid "Height"
+msgstr "Высота"
+
+#: includes/class-widget.php:387
+msgid "Zoom Level"
+msgstr "Масштаб"
+
+#: includes/class-widget.php:372 includes/class-widget.php:840
+#: includes/class-widget.php:1060
+msgid "Longitude"
+msgstr "Долгота"
+
+#: includes/class-widget.php:359 includes/class-widget.php:827
+#: includes/class-widget.php:1047
+msgid "Latitude"
+msgstr "Широта"
+
+#: includes/class-widget.php:349 includes/class-widget.php:813
+#: includes/class-widget.php:992
+msgid "Find Latitude & Longitude"
+msgstr "Поиск широты и долготы"
+
+#: includes/class-widget.php:342
+msgid "Map"
+msgstr "Карта"
+
+#: includes/class-main.php:245 includes/class-widget.php:284
+msgid "Yandex Maps"
+msgstr "Яндекс.Карты"

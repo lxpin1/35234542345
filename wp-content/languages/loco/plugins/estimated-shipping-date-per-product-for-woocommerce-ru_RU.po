@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Estimated Delivery Date Per Product For Woocommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 11:35+0000\n"
+"PO-Revision-Date: 2023-03-09 11:41+0000\n"
+"Last-Translator: ALexey Pinezhaninov\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.1.1\n"
+"X-Domain: estimated-shipping-date-per-product-for-woocommerce"
+
+#: admin/esdppfw-backend.php:49
+msgid "After Add to Cart Button"
+msgstr ""
+
+#: admin/esdppfw-backend.php:48
+msgid "After Add to Cart Quantity"
+msgstr ""
+
+#: admin/esdppfw-backend.php:47
+msgid "Before Add to Cart Button"
+msgstr ""
+
+#: admin/esdppfw-backend.php:99
+msgid "D - A textual representation of a day (three letters)"
+msgstr ""
+
+#: admin/esdppfw-backend.php:98
+msgid "d - The day of the month (from 01 to 31)"
+msgstr ""
+
+#: admin/esdppfw-backend.php:94
+msgid "Delivery Date Format"
+msgstr ""
+
+#: admin/esdppfw-backend.php:250
+msgid "Delivery Date Text:"
+msgstr ""
+
+#: admin/esdppfw-backend.php:86
+msgid "Delivery Text Background Color all Products"
+msgstr ""
+
+#: admin/esdppfw-backend.php:90
+msgid "Delivery Text Color all Products"
+msgstr ""
+
+#: admin/esdppfw-backend.php:262
+msgid "Delivery Text For Out Of Stock:"
+msgstr ""
+
+#: admin/esdppfw-backend.php:274
+msgid "Delivery text on Order Page:"
+msgstr ""
+
+#: admin/esdppfw-backend.php:43
+msgid "Delivery Text Position on Product Page"
+msgstr ""
+
+#: admin/esdppfw-backend.php:35
+msgid "Delivery Time"
+msgstr ""
+
+#: admin/esdppfw-backend.php:236
+msgid "Delivery Time:"
+msgstr ""
+
+#: admin/esdppfw-backend.php:56
+msgid "Display on Cart and Checkout Page"
+msgstr ""
+
+#: admin/esdppfw-backend.php:60
+msgid "Display on Order Page/ Order Email"
+msgstr ""
+
+#: admin/esdppfw-backend.php:39
+msgid "Display on Single Product Page"
+msgstr ""
+
+#: admin/esdppfw-backend.php:28 admin/esdppfw-backend.php:32
+#: admin/esdppfw-backend.php:40 admin/esdppfw-backend.php:57
+#: admin/esdppfw-backend.php:61 admin/esdppfw-backend.php:66
+#: admin/esdppfw-backend.php:70
+msgid "Enable/Disable"
+msgstr ""
+
+#: admin/esdppfw-backend.php:27
+msgid "Enabled Delivery Date"
+msgstr ""
+
+#: admin/esdppfw-backend.php:31
+msgid "Enabled For All Products"
+msgstr ""
+
+#. Name of the plugin
+msgid "Estimated Delivery Date Per Product For Woocommerce"
+msgstr ""
+
+#: admin/esdppfw-backend.php:97
+msgid "Example"
+msgstr ""
+
+#: admin/esdppfw-backend.php:101
+msgid "F - A full textual representation of a month (January through December)"
+msgstr ""
+
+#: admin/esdppfw-backend.php:77
+msgid "For All Products Delivery Text For Cart And Checkout Page"
+msgstr ""
+
+#: admin/esdppfw-backend.php:82
+msgid "For All Products Delivery Text For Order Page"
+msgstr ""
+
+#: admin/esdppfw-backend.php:73
+msgid "For All Products Delivery Text For Product Page"
+msgstr ""
+
+#: admin/esdppfw-backend.php:20
+msgid "General Settings"
+msgstr ""
+
+#: admin/esdppfw-backend.php:69
+msgid "Hide if Product is Backorder?"
+msgstr ""
+
+#: admin/esdppfw-backend.php:65
+msgid "Hide if Product is Out of Stock?"
+msgstr ""
+
+#: admin/esdppfw-backend.php:246
+msgid "In Day"
+msgstr ""
+
+#: admin/esdppfw-backend.php:36
+msgid "in day"
+msgstr ""
+
+#: admin/esdppfw-backend.php:100
+msgid "j - The day of the month without leading zeros (1 to 31)"
+msgstr ""
+
+#: admin/esdppfw-backend.php:102
+msgid "l (lowercase \"L\") - A full textual representation of a day"
+msgstr ""
+
+#: admin/esdppfw-backend.php:103
+msgid "m - A numeric representation of a month (from 01 to 12)"
+msgstr ""
+
+#: admin/esdppfw-backend.php:104
+msgid "M - A short textual representation of a month (three letters)"
+msgstr ""
+
+#: admin/esdppfw-backend.php:105
+msgid ""
+"n - A numeric representation of a month, without leading zeros (1 to 12)"
+msgstr ""
+
+#: admin/esdppfw-backend.php:10
+msgid "Product Est Date Setting"
+msgstr ""
+
+#: admin/esdppfw-backend.php:51
+msgid "Product meta end"
+msgstr ""
+
+#: admin/esdppfw-backend.php:50
+msgid "Product meta Start"
+msgstr ""
+
+#: admin/esdppfw-backend.php:13
+msgid "Record updated successfully."
+msgstr ""
+
+#: admin/esdppfw-backend.php:46
+msgid "Single Product Summary"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin allows you to Create Estimated Shipping Date Per Product in "
+"WooCommerce."
+msgstr ""
+
+#: admin/esdppfw-backend.php:32
+msgid ""
+"This Setting Enable Dleivery Time For all Products. You can enable this "
+"Option if all your products have same delivery time."
+msgstr ""
+
+#: admin/esdppfw-backend.php:106
+msgid "Y - A four digit representation of a year"
+msgstr ""
+
+#: admin/esdppfw-backend.php:107
+msgid "y - A two digit representation of a year"
+msgstr ""

@@ -1,0 +1,74 @@
+span.required {
+    color:#ff0000;
+}
+.loading .loading-content{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+.loading-wrap{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index:9999;
+}
+.admin-content{
+    position:relative;
+}
+.findCityKladr,.findStreetKladr{
+    margin-left: 5px !important;
+}
+
+.kladrDiv{
+    position:absolute;
+    top:0;
+    background:#fff;
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.5);
+    z-index:2;
+    padding:20px;
+}
+.autocomplete{
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    width: 300px;
+    height: 40px;
+
+    border: 1px solid #ccc;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+.autocomplete .rows{
+    position:relative;
+    background: #fff;
+}
+.btn.active.btn-success{
+    z-index: 1 !important;
+}
+.autocomplete-row{
+    cursor:pointer;
+    padding:7px;
+    height:47px;
+    overflow:scroll;
+    white-space: nowrap;
+}
+.autocomplete-row:hover{
+    background:#ccc;
+}
+.forminp,#mainform{
+    position:relative;
+}
+.close-popup.btn.btn-small.button-cancel{
+    margin-left:5px;
+}
+span.error{
+    color:#ff0000;
+}

@@ -1,0 +1,578 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Belingo.GeoCiy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-26 15:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: belingogeo"
+
+#: includes/admin/settings.php:93
+msgid "- E-mail for communication with technical support specialists."
+msgstr ""
+
+#: includes/admin/settings.php:94
+msgid ""
+"- Our telegram channel, where you can find out the latest news and "
+"participate in the development of our products."
+msgstr ""
+
+#: includes/admin/settings.php:92
+msgid "- Our website."
+msgstr ""
+
+#: includes/admin/settings.php:97
+msgid ""
+"A simple and effective anti-spam plugin for WordPress. The plugin's "
+"algorithm analyzes user behavior on the site and, if necessary, marks it as "
+"spam."
+msgstr ""
+
+#: includes/admin/settings.php:98
+msgid ""
+"A very simple calculator to place on any page of your website using a "
+"shortcode. Annuity or differentiated calculation method. For any period and "
+"with any interest rate."
+msgstr ""
+
+#: includes/admin/settings.php:16 includes/admin/settings.php:80
+msgid "About plugin"
+msgstr ""
+
+#: includes/admin/settings.php:556
+msgid "Add a city to the header of the WooCommerce category"
+msgstr ""
+
+#: includes/admin/functions.php:12
+msgid "Add city"
+msgstr ""
+
+#: includes/admin/settings.php:454
+msgid "Add city to breadcrumbs"
+msgstr ""
+
+#: includes/admin/functions.php:45
+msgid "Add new region"
+msgstr ""
+
+#: includes/admin/functions.php:13
+msgid "Adding city"
+msgstr ""
+
+#: includes/admin/functions.php:74
+msgid "Additional points"
+msgstr ""
+
+#: includes/admin/settings.php:238 includes/admin/settings.php:245
+msgid "Additional text1 in the popup window"
+msgstr ""
+
+#: includes/admin/settings.php:252 includes/admin/settings.php:259
+msgid "Additional text2 in the popup window"
+msgstr ""
+
+#: includes/admin/functions.php:73 includes/admin/functions.php:455
+#: includes/admin/functions.php:474
+msgid "Address"
+msgstr ""
+
+#: includes/admin/settings.php:52
+msgid "All cities of Russia - <a>download</a>"
+msgstr ""
+
+#: includes/admin/functions.php:39
+msgid "All regions"
+msgstr ""
+
+#: includes/admin/settings.php:54
+msgid ""
+"Attention! Loading all cities at once can be difficult and depends on the "
+"settings and limitations of your hosting provider. In this case, we "
+"recommend splitting the file into several parts."
+msgstr ""
+
+#: includes/admin/settings.php:524 includes/admin/settings.php:531
+msgid "Automatic city detection on the WooCommerce checkout page"
+msgstr ""
+
+#: includes/admin/settings.php:162
+msgid "Basic"
+msgstr ""
+
+#: includes/admin/settings.php:111
+msgid "Belingo Geo Settings"
+msgstr ""
+
+#. Author of the plugin
+msgid "Belingo llc"
+msgstr ""
+
+#. Name of the plugin
+msgid "Belingo.GeoCiy"
+msgstr ""
+
+#: includes/admin/settings.php:10 includes/admin/settings.php:12
+msgid "BelingoGeo plugin settings"
+msgstr ""
+
+#: includes/admin/settings.php:475
+msgid ""
+"By default, the plugin replaces links using internal functions that "
+"determine the city, but when using caching, problems may arise, to eliminate "
+"it, you can try using this option"
+msgstr ""
+
+#: includes/hooks.php:224
+msgid "Can't delete default city"
+msgstr ""
+
+#: includes/admin/settings.php:337
+msgid "Categories"
+msgstr ""
+
+#: templates/question_city.php:24
+msgid "Choose another city"
+msgstr ""
+
+#: templates/select_city.php:22 templates/popup_select_city.php:11
+msgid "Choose from the list:"
+msgstr ""
+
+#: includes/admin/functions.php:8 includes/admin/functions.php:10
+#: includes/admin/functions.php:21
+msgid "Cities"
+msgstr ""
+
+#: includes/admin/functions.php:11
+msgid "City"
+msgstr ""
+
+#: includes/admin/settings.php:177
+msgid ""
+"City in subdirectory (the link will look like this: example.com/samara/)"
+msgstr ""
+
+#: includes/admin/settings.php:182
+msgid "City in subdomain (the link will look like this: samara.example.com)"
+msgstr ""
+
+#: includes/admin/settings.php:266
+msgid "Connect pop-ups in the site footer"
+msgstr ""
+
+#: templates/select_city.php:37 templates/popup_select_city.php:26
+#: templates/question_city.php:27
+msgid "Continue without the city"
+msgstr ""
+
+#: includes/admin/functions.php:70
+msgid "Dative"
+msgstr ""
+
+#: includes/admin/settings.php:195
+msgid "Default city"
+msgstr ""
+
+#: includes/admin/settings.php:440
+msgid "Definition of a city outside the list"
+msgstr ""
+
+#: includes/admin/settings.php:90
+msgid "Description of all settings of the BelingoGeo plugin"
+msgstr ""
+
+#: belingoGeo.php:54 templates/select_city.php:31
+msgid "Didn't find your city?"
+msgstr ""
+
+#: includes/admin/settings.php:496
+msgid "Disable forced slug generation for city"
+msgstr ""
+
+#: includes/admin/settings.php:510
+msgid "Disable forced slug generation for region"
+msgstr ""
+
+#: includes/admin/settings.php:412
+msgid "Disable virtual URLs"
+msgstr ""
+
+#: includes/admin/functions.php:14
+msgid "Edit city"
+msgstr ""
+
+#: includes/admin/functions.php:43
+msgid "Edit region"
+msgstr ""
+
+#: includes/admin/settings.php:540
+msgid "Enable city search by pop-up window"
+msgstr ""
+
+#: includes/admin/settings.php:273
+msgid ""
+"Enables pop-up windows in the footer of the site, the option can not be "
+"enabled if you placed the shortcode manually"
+msgstr ""
+
+#: includes/admin/settings.php:163
+msgid "Exceptions"
+msgstr ""
+
+#: includes/admin/settings.php:308
+msgid "Exclude all regular posts"
+msgstr ""
+
+#: includes/admin/settings.php:294
+msgid "Exclude anything that is not a registered entity"
+msgstr ""
+
+#: includes/hooks.php:202 includes/admin/settings.php:15
+#: includes/admin/settings.php:15 includes/admin/settings.php:67
+msgid "Export"
+msgstr ""
+
+#: includes/admin/settings.php:468
+msgid "Filter links by url"
+msgstr ""
+
+#: templates/selector.php:3 templates/select_city.php:46
+msgid "Finding..."
+msgstr ""
+
+#: includes/admin/settings.php:482
+msgid "Forced confirmation of the city"
+msgstr ""
+
+#: includes/admin/settings.php:489
+msgid ""
+"Forced confirmation of the city without a pop-up window with the question: "
+"\"What is your city?\"."
+msgstr ""
+
+#: includes/admin/functions.php:71
+msgid "Genitive"
+msgstr ""
+
+#: includes/admin/settings.php:82 includes/admin/settings.php:113
+msgid "Go Pro"
+msgstr ""
+
+#: includes/admin/settings.php:88
+msgid ""
+"How to create an additional field for the city in the belingoGeo plugin?"
+msgstr ""
+
+#: includes/admin/settings.php:89
+msgid "How to display a link to switch cities anywhere on the site"
+msgstr ""
+
+#: includes/admin/settings.php:87
+msgid "How to sort cities in belingoGeo plugin?"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://belingo.ru"
+msgstr ""
+
+#: includes/admin/settings.php:217
+msgid ""
+"If no city is selected, and no default city is specified, you can specify "
+"the text that will be displayed, by default: \"Not Found\"."
+msgstr ""
+
+#: includes/admin/settings.php:210
+msgid "If the city is not found"
+msgstr ""
+
+#: includes/admin/settings.php:447
+msgid ""
+"If this option is enabled, the city will be determined anyway, even if it is "
+"not in the list. Virtual URLs for such a city will not be generated."
+msgstr ""
+
+#: includes/hooks.php:202 includes/admin/settings.php:14
+#: includes/admin/settings.php:14 includes/admin/settings.php:48
+msgid "Import"
+msgstr ""
+
+#: includes/admin/functions.php:68
+msgid "In English"
+msgstr ""
+
+#: includes/admin/settings.php:86
+msgid "Installing and configuring the belingoGeo plugin"
+msgstr ""
+
+#: includes/admin/settings.php:167
+msgid "Link type"
+msgstr ""
+
+#: includes/admin/functions.php:15
+msgid "New city"
+msgstr ""
+
+#: includes/admin/functions.php:46
+msgid "New region name"
+msgstr ""
+
+#: includes/admin/functions.php:18
+msgid "Not found"
+msgstr ""
+
+#: includes/admin/functions.php:19
+msgid "Not found in trash"
+msgstr ""
+
+#: includes/admin/settings.php:280
+msgid "Number of urls in the sitemap"
+msgstr ""
+
+#: includes/admin/settings.php:37 includes/admin/settings.php:58
+#: includes/admin/settings.php:71 includes/admin/settings.php:625
+#: includes/admin/settings.php:648 includes/admin/settings.php:670
+msgid "Only available for Pro version"
+msgstr ""
+
+#: includes/admin/settings.php:461
+msgid "Option to add the city to breadcrumbs on the website."
+msgstr ""
+
+#: includes/admin/settings.php:96
+msgid "Our other plugins"
+msgstr ""
+
+#: includes/admin/settings.php:322
+msgid "Pages"
+msgstr ""
+
+#: includes/admin/settings.php:329
+msgid "Pages selected in this list will be excluded from the plugin"
+msgstr ""
+
+#: includes/admin/functions.php:41
+msgid "Parent region"
+msgstr ""
+
+#: includes/admin/functions.php:42
+msgid "Parent region:"
+msgstr ""
+
+#: includes/admin/settings.php:224 includes/admin/settings.php:231
+msgid "Popup title with cities"
+msgstr ""
+
+#: includes/admin/settings.php:382
+msgid "Post types"
+msgstr ""
+
+#: includes/admin/settings.php:367
+msgid "Posts"
+msgstr ""
+
+#: includes/admin/settings.php:374
+msgid "Posts selected in this list will be excluded from the plugin"
+msgstr ""
+
+#: includes/admin/functions.php:69
+msgid "Prepositional"
+msgstr ""
+
+#: includes/admin/settings.php:426
+msgid "Redirect on page if is exists"
+msgstr ""
+
+#: includes/admin/functions.php:37 includes/admin/functions.php:47
+msgid "Region"
+msgstr ""
+
+#: includes/admin/functions.php:34 includes/admin/functions.php:36
+#: includes/admin/settings.php:11 includes/admin/settings.php:11
+msgid "Regions"
+msgstr ""
+
+#: includes/admin/functions.php:17
+msgid "Search city"
+msgstr ""
+
+#: includes/admin/functions.php:38
+msgid "Search regions"
+msgstr ""
+
+#: includes/admin/settings.php:12
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/settings.php:128
+msgid "Settings have been saved"
+msgstr ""
+
+#: includes/admin/functions.php:16
+msgid "Show city"
+msgstr ""
+
+#: includes/admin/settings.php:91
+msgid "Support"
+msgstr ""
+
+#: includes/hooks.php:234
+msgid "System city"
+msgstr ""
+
+#: includes/admin/settings.php:352
+msgid "Tags"
+msgstr ""
+
+#: includes/admin/settings.php:397
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/admin/functions.php:72 includes/admin/functions.php:451
+#: includes/admin/functions.php:468
+msgid "Telephone"
+msgstr ""
+
+#: includes/admin/settings.php:287
+msgid "The number of URLs per page in the sitemap"
+msgstr ""
+
+#: includes/admin/settings.php:547
+msgid "The option displays a city search in a pop-up list of cities"
+msgstr ""
+
+#: includes/admin/settings.php:84
+msgid ""
+"The plugin adds the ability to select cities, unique pages are created with "
+"a unique url for each city. This allows you to make content unique to search "
+"engines."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The plugin adds the ability to select cities, unique pages are created with "
+"a unique url for each city. This allows you to uniqueize content for search "
+"engines."
+msgstr ""
+
+#: includes/admin/settings.php:503
+msgid ""
+"The plugin automatically generates a slug for the city, this option disables "
+"automatic generation and you can manually specify the slug for the city."
+msgstr ""
+
+#: includes/admin/settings.php:517
+msgid ""
+"The plugin automatically generates a slug for the region, this option "
+"disables automatic generation and you can manually specify the slug for the "
+"region."
+msgstr ""
+
+#: includes/admin/settings.php:344
+msgid ""
+"The selected headings will be excluded, urls with the city will not be "
+"generated for them, and all posts belonging to this heading will be "
+"automatically excluded"
+msgstr ""
+
+#: includes/admin/settings.php:389
+msgid ""
+"The selected post types will be excluded, URLs with the city will not be "
+"generated for them, and all posts of the specified post type will be "
+"automatically excluded"
+msgstr ""
+
+#: includes/admin/settings.php:359
+msgid ""
+"The selected tags will be excluded, urls with the city will not be generated "
+"for them"
+msgstr ""
+
+#: includes/admin/settings.php:404
+msgid ""
+"The selected taxonomies will be excluded, urls with the city will not be "
+"generated for them, and all terms of the specified taxonomy will be "
+"automatically excluded"
+msgstr ""
+
+#: includes/admin/settings.php:202
+msgid ""
+"The string is displayed in the select_city shortcode if there is no selected "
+"city"
+msgstr ""
+
+#: includes/admin/settings.php:301
+msgid ""
+"This option excludes all pages not related to WP_Post, WP_Term, WP_Post_Type "
+"and WP_Taxonomy. For example archives by date"
+msgstr ""
+
+#: includes/admin/settings.php:315
+msgid ""
+"This option excludes all regular entries. If enabled, exclusion of each "
+"individual entry is ignored."
+msgstr ""
+
+#: includes/admin/functions.php:44
+msgid "Update region"
+msgstr ""
+
+#: includes/admin/settings.php:50
+msgid "Upload a list of cities in CSV format, <a>download</a> an example file."
+msgstr ""
+
+#: includes/admin/settings.php:85
+msgid "Useful articles"
+msgstr ""
+
+#: includes/admin/functions.php:40
+msgid "View regions"
+msgstr ""
+
+#: belingoGeo.php:55 templates/select_city.php:33
+msgid "We deliver worldwide"
+msgstr ""
+
+#: includes/admin/settings.php:433
+msgid ""
+"When virtual URLs are disabled, you can enable redirection to existing pages."
+" Works only in conjunction with disabled URLs!"
+msgstr ""
+
+#: includes/admin/settings.php:13 includes/admin/settings.php:32
+msgid "Woo Price"
+msgstr ""
+
+#: templates/question_city.php:23
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/settings.php:419
+msgid "You can disable virtual URLs, the plugin will not generate them"
+msgstr ""
+
+#: includes/admin/settings.php:563
+msgid ""
+"You can specify any shortcode, it will be added to the woocommerce category "
+"header."
+msgstr ""
+
+#: templates/question_city.php:17
+msgid "Your city"
+msgstr ""
+
+#: belingoGeo.php:53 templates/select_city.php:14
+msgid "Your delivery region"
+msgstr ""
+
+#: includes/admin/functions.php:48
+msgid "← Back to region"
+msgstr ""

@@ -1,0 +1,21 @@
+.belingogeo_serach_city_container {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+#belingogeo_search_city {
+	border: none;
+	outline: none;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	background: #fff;
+}
+
+#belingogeo_search_city:focus {
+	border: none;
+	outline: none;
+}

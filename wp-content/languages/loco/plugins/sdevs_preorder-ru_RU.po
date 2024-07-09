@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pre-Order\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 14:37+0000\n"
+"PO-Revision-Date: 2023-10-11 14:39+0000\n"
+"Last-Translator: ALexey Pinezhaninov\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.3.1\n"
+"X-Domain: sdevs_preorder"
+
+#: includes/Admin/Preorder.php:40
+msgid "Add New Preorder"
+msgstr ""
+
+#: includes/Admin/Preorder.php:41
+msgid "Add Preorder"
+msgstr ""
+
+#: includes/Admin/views/form.php:21
+msgid "Add to Cart Label"
+msgstr ""
+
+#: includes/Admin/views/settings.php:17
+msgid "After Add To Cart Button"
+msgstr ""
+
+#: includes/Admin/views/settings.php:14
+msgid "After Product Image"
+msgstr ""
+
+#: includes/Admin/views/settings.php:15
+msgid "After Product Title"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allow customers to pre-order from your store."
+msgstr ""
+
+#: includes/Admin/views/settings.php:16
+msgid "Before Product Title"
+msgstr ""
+
+#: includes/Admin/views/pre-order-details.php:66
+msgid "Billing :"
+msgstr ""
+
+#: includes/Admin/views/form.php:10
+msgid "check this box to enable PreOrder for this product"
+msgstr ""
+
+#: includes/Frontend/Product.php:69
+msgid "Currently You have Non-Preorder product on cart !!"
+msgstr ""
+
+#: includes/Frontend/Product.php:79
+msgid "Currently You have Preorder product on cart !!"
+msgstr ""
+
+#: includes/Admin/Preorder.php:123
+msgid "Customer Info"
+msgstr ""
+
+#: includes/Admin/views/settings.php:7
+msgid "Customize pre-order options"
+msgstr ""
+
+#: includes/Admin/Preorder.php:166
+msgid "Date"
+msgstr ""
+
+#: includes/Admin/views/settings.php:13
+msgid "Default"
+msgstr ""
+
+#: includes/Admin/views/settings.php:43
+msgid "Default Add to Cart text"
+msgstr ""
+
+#: includes/Illuminate/settings-gateway.php:18
+msgid "Description"
+msgstr ""
+
+#: includes/Admin/views/pre-order-customer.php:8
+msgid "Email:"
+msgstr ""
+
+#: includes/Admin/views/form.php:7
+msgid "Enable PreOrder"
+msgstr ""
+
+#: includes/Frontend/Order.php:35
+msgid "Has Pre-Orders"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://springdevs.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/sdevs-wc-preorder"
+msgstr ""
+
+#: includes/Admin/views/settings.php:18
+msgid "Inside Description"
+msgstr ""
+
+#: includes/Admin/Preorder.php:36
+msgid "Item Archives"
+msgstr ""
+
+#: includes/Admin/Preorder.php:37
+msgid "Item Attributes"
+msgstr ""
+
+#: includes/Admin/views/settings.php:26
+msgid "Label position"
+msgstr ""
+
+#: includes/Admin/views/pre-order-customer.php:4
+msgid "Name:"
+msgstr ""
+
+#: includes/Admin/Preorder.php:42
+msgid "New Preorder"
+msgstr ""
+
+#: includes/Admin/views/settings.php:37
+msgid "No Date & Release Date label position"
+msgstr ""
+
+#: includes/Admin/views/form.php:27
+msgid "No Date Label"
+msgstr ""
+
+#: includes/Admin/views/settings.php:54
+msgid "No Date Label Color"
+msgstr ""
+
+#: includes/Admin/Order.php:45
+msgid "No date set"
+msgstr ""
+
+#: includes/Admin/Preorder.php:162 templates/myaccount/preorders.php:29
+msgid "Order"
+msgstr ""
+
+#: includes/Admin/views/pre-order-details.php:46
+msgid "Order Date :"
+msgstr ""
+
+#: includes/Admin/views/pre-order-details.php:32
+msgid "Order ID :"
+msgstr ""
+
+#: includes/Admin/views/settings.php:77
+msgid "Order item marker Text"
+msgstr ""
+
+#: includes/Admin/Preorder.php:178 includes/Admin/Preorder.php:189
+#: includes/Admin/Preorder.php:205
+msgid "Order not exixts !!"
+msgstr ""
+
+#: includes/Admin/views/pre-order-details.php:39
+msgid "Order Status :"
+msgstr ""
+
+#: includes/Admin/Preorder.php:38
+msgid "Parent :"
+msgstr ""
+
+#: includes/Illuminate/PreorderGateway.php:19
+#: includes/Illuminate/PreorderGateway.php:21
+#: includes/Illuminate/settings-gateway.php:14
+msgid "Pay Later"
+msgstr ""
+
+#: includes/Admin/views/pre-order-details.php:60
+msgid "Payment Method :"
+msgstr ""
+
+#: includes/Admin/views/pre-order-customer.php:12
+msgid "Phone:"
+msgstr ""
+
+#. Name of the plugin
+#: includes/Admin/Order.php:28 includes/Admin/Product.php:38
+msgid "Pre-Order"
+msgstr ""
+
+#: includes/Admin/views/plugin-notice.php:4
+msgid ""
+"Pre-Order plugin is not working without <code>WooCommerce</code> plugin. "
+"please install & activate <code>WooCommerce</code> plugin !!"
+msgstr ""
+
+#: includes/Admin/views/form.php:2 includes/Admin/views/settings.php:6
+msgid "Pre-Order Settings"
+msgstr ""
+
+#: includes/Frontend/Account.php:52
+msgid "Pre-Orders"
+msgstr ""
+
+#: includes/Admin/Preorder.php:34
+msgid "Preorder"
+msgstr ""
+
+#: includes/Admin/Preorder.php:35
+msgid "Preorder's"
+msgstr ""
+
+#: includes/Admin/Preorder.php:33 includes/Admin/Preorder.php:39
+#: includes/Admin/Preorder.php:51
+msgid "Preorders"
+msgstr ""
+
+#: includes/Admin/Preorder.php:163 templates/myaccount/preorders.php:30
+msgid "Price"
+msgstr ""
+
+#: includes/Admin/views/pre-order-details.php:25
+msgid "Price :"
+msgstr ""
+
+#: templates/myaccount/preorders.php:28
+msgid "Product"
+msgstr ""
+
+#: includes/Admin/views/pre-order-details.php:9
+msgid "Product :"
+msgstr ""
+
+#: includes/Admin/views/pre-order-details.php:18
+msgid "Qty :"
+msgstr ""
+
+#: includes/Admin/views/form.php:15
+msgid "Release Date"
+msgstr ""
+
+#: includes/Admin/Preorder.php:164 templates/myaccount/preorders.php:31
+msgid "Release date"
+msgstr ""
+
+#: includes/Admin/views/pre-order-details.php:53
+msgid "Release Date :"
+msgstr ""
+
+#: includes/Admin/views/form.php:33
+msgid "Release Date Label"
+msgstr ""
+
+#: includes/Admin/views/settings.php:65
+msgid "Release Date Label Color"
+msgstr ""
+
+#: includes/Frontend/Order.php:24
+msgid "Release date: "
+msgstr ""
+
+#: includes/Frontend/Order.php:26
+msgid "Release date: N/A"
+msgstr ""
+
+#: includes/Admin/Preorder.php:47
+msgid "Search Preorder"
+msgstr ""
+
+#: includes/Admin/Settings.php:27 includes/Illuminate/PreorderGateway.php:36
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:27
+msgid "Settings &lsaquo; Pre-Order"
+msgstr ""
+
+#: includes/Admin/views/pre-order-details.php:70
+msgid "Shipping :"
+msgstr ""
+
+#. Author of the plugin
+msgid "SpringDevs"
+msgstr ""
+
+#: includes/Admin/views/settings.php:59
+#, php-format
+msgid "Text color for No Date Label. Default %s."
+msgstr ""
+
+#: includes/Admin/views/settings.php:70
+#, php-format
+msgid "Text color for Release Date Label Color. Default %s."
+msgstr ""
+
+#: includes/Illuminate/settings-gateway.php:21
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/Illuminate/settings-gateway.php:13
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/Illuminate/PreorderGateway.php:40
+msgid "This gateway requires no configuration."
+msgstr ""
+
+#: includes/Illuminate/PreorderGateway.php:57
+msgid "This order is awaiting confirmation."
+msgstr ""
+
+#: includes/Admin/views/settings.php:48
+msgid ""
+"This text will be replaced on 'Add to Cart' button. By leaving it blank."
+msgstr ""
+
+#: includes/Illuminate/settings-gateway.php:11
+msgid "Title"
+msgstr ""
+
+#: includes/Admin/Preorder.php:44
+msgid "Update Preorder"
+msgstr ""
+
+#: includes/Admin/views/pre-order-customer.php:17
+msgid "View Order"
+msgstr ""
+
+#: includes/Admin/Preorder.php:43 includes/Admin/Preorder.php:45
+#: includes/Admin/Preorder.php:46
+msgid "View Preorder"
+msgstr ""
+
+#: includes/Illuminate/settings-gateway.php:22
+msgid "When product is confirmed then You need to Pay."
+msgstr ""
+
+#: includes/Illuminate/PreorderGateway.php:85
+msgid "Your preorder has been confirmed. Thank you."
+msgstr ""
+
+#: includes/Illuminate/PreorderGateway.php:87
+msgid ""
+"Your preorder is awaiting confirmation. You will be notified by email as "
+"soon as we've confirmed availability."
+msgstr ""
